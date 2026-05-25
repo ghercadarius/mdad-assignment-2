@@ -1,5 +1,3 @@
-"""Creare colecții Weaviate și inserare chunk-uri cu vectori."""
-
 import weaviate
 import weaviate.classes as wvc
 from sentence_transformers import SentenceTransformer

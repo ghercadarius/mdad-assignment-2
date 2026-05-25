@@ -1,8 +1,3 @@
-"""
-Sweep pe: chunk_size, top_k, alpha.
-Evaluare nDCG@10 pentru fiecare configurație.
-"""
-
 from typing import List, Dict
 import pandas as pd
 import matplotlib.pyplot as plt

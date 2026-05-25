@@ -1,10 +1,3 @@
-"""
-Cele trei strategii de retrieval peste Weaviate:
-  - BM25 (sparse)
-  - Dense (vectorial)
-  - Hybrid (fuziune convexă BM25 + dens)
-"""
-
 from typing import List, Dict
 
 import weaviate

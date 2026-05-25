@@ -1,8 +1,3 @@
-"""
-Entry-point Cerința 3: RAG pe 10 query-uri din setul ales.
-Setul recomandat: SciFact (cel mai interesant comportament al retrieverelor).
-"""
-
 import json
 from sentence_transformers import SentenceTransformer
 from src.config import EMBED_MODEL, OLLAMA_MODEL

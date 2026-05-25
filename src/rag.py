@@ -1,5 +1,3 @@
-"""Pipeline RAG: retrieval + prompt construction + generare LLM cu Ollama."""
-
 from typing import List, Dict
 import ollama
 

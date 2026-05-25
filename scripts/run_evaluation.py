@@ -1,5 +1,3 @@
-"""Entry-point pentru Cerința 2: tabel comparativ retrievere × datasets."""
-
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 from src.config import DATASETS, EMBED_MODEL, TOP_K, NDCG_K, ALPHA_DEFAULT

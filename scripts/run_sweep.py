@@ -1,5 +1,3 @@
-"""Entry-point Cerința 4: hyperparameter sweep complet."""
-
 from sentence_transformers import SentenceTransformer
 from src.config import EMBED_MODEL
 from src.data_loader import load_dataset

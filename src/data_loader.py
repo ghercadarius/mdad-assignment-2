@@ -1,5 +1,3 @@
-"""Descărcare date BEIR și chunking cu fereastră glisantă."""
-
 import os
 from typing import Dict, List, Tuple
 

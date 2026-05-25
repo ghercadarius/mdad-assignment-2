@@ -1,8 +1,3 @@
-"""
-Calcul metrici IR: Recall@k, MRR, nDCG@k.
-Implementare manuală, fără dependențe externe suplimentare.
-"""
-
 import math
 from typing import List, Dict
 
