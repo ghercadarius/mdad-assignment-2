@@ -23,25 +23,25 @@ finally:
 
 ret = Retriever(DATASET, model, alpha=0.5, top_k=5)
 
-print("\n" + "="*60)
-print(f"QUERY: {QUERY}")
-print("="*60)
-
-print("\n[1] BM25 results:")
-for r in ret.bm25(QUERY)[:3]:
-    print(f"  doc_id={r['doc_id']}  score={r['score']:.4f}")
-
-print("\n[2] Dense results:")
-for r in ret.dense(QUERY)[:3]:
-    print(f"  doc_id={r['doc_id']}  score={r['score']:.4f}")
-
-print("\n[3] Hybrid results:")
-for r in ret.hybrid(QUERY)[:3]:
-    print(f"  doc_id={r['doc_id']}  score={r['score']:.4f}")
-
-print("\n[4] RAG answer:")
 pipeline = RAGPipeline(DATASET, model, "hybrid", top_k=5)
 try:
+    print("\n" + "="*60)
+    print(f"QUERY: {QUERY}")
+    print("="*60)
+
+    print("\n[1] BM25 results:")
+    for r in ret.bm25(QUERY)[:3]:
+        print(f"  doc_id={r['doc_id']}  score={float(r['score']):.4f}")
+
+    print("\n[2] Dense results:")
+    for r in ret.dense(QUERY)[:3]:
+        print(f"  doc_id={r['doc_id']}  score={float(r['score']):.4f}")
+
+    print("\n[3] Hybrid results:")
+    for r in ret.hybrid(QUERY)[:3]:
+        print(f"  doc_id={r['doc_id']}  score={float(r['score']):.4f}")
+
+    print("\n[4] RAG answer:")
     result = pipeline.run(QUERY)
     print(result["answer"])
 finally:

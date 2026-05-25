@@ -15,6 +15,25 @@ from src.config import TOP_K, ALPHA_DEFAULT
 from src.indexer import collection_name, get_client
 
 
+def _result_payload(obj) -> Dict:
+    metadata = getattr(obj, "metadata", None)
+    score = 0.0
+    if metadata is not None:
+        score = getattr(metadata, "score", None)
+        if score is None:
+            score = getattr(metadata, "certainty", None)
+        score = score or 0.0
+
+    properties = obj.properties
+    return {
+        "doc_id": properties["doc_id"],
+        "chunk_id": properties["chunk_id"],
+        "text": properties.get("text", ""),
+        "title": properties.get("title", ""),
+        "score": score,
+    }
+
+
 def retrieve_bm25(client: weaviate.WeaviateClient,
                   dataset: str,
                   query_text: str,
@@ -26,12 +45,7 @@ def retrieve_bm25(client: weaviate.WeaviateClient,
         limit=top_k,
         return_properties=["chunk_id", "doc_id", "text", "title"],
     )
-    return [
-        {"doc_id": o.properties["doc_id"],
-         "chunk_id": o.properties["chunk_id"],
-         "score": o.metadata.score if o.metadata else 0.0}
-        for o in results.objects
-    ]
+    return [_result_payload(o) for o in results.objects]
 
 
 def retrieve_dense(client: weaviate.WeaviateClient,
@@ -46,12 +60,7 @@ def retrieve_dense(client: weaviate.WeaviateClient,
         return_properties=["chunk_id", "doc_id", "text", "title"],
         return_metadata=wvc.query.MetadataQuery(certainty=True, distance=True),
     )
-    return [
-        {"doc_id": o.properties["doc_id"],
-         "chunk_id": o.properties["chunk_id"],
-         "score": o.metadata.certainty if o.metadata else 0.0}
-        for o in results.objects
-    ]
+    return [_result_payload(o) for o in results.objects]
 
 
 def retrieve_hybrid(client: weaviate.WeaviateClient,
@@ -73,12 +82,7 @@ def retrieve_hybrid(client: weaviate.WeaviateClient,
         return_properties=["chunk_id", "doc_id", "text", "title"],
         return_metadata=wvc.query.MetadataQuery(score=True),
     )
-    return [
-        {"doc_id": o.properties["doc_id"],
-         "chunk_id": o.properties["chunk_id"],
-         "score": o.metadata.score if o.metadata else 0.0}
-        for o in results.objects
-    ]
+    return [_result_payload(o) for o in results.objects]
 
 
 class Retriever:
