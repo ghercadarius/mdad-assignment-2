@@ -1,0 +1,203 @@
+[
+  {
+    "question": "0-dimensional biomaterials show inductive properties.",
+    "context_chunks": [
+      "25404036_0",
+      "6863070_0",
+      "10607877_0",
+      "29638116_0",
+      "31543713_0",
+      "9580772_0",
+      "10608397_0",
+      "10029970_0",
+      "44947611_0",
+      "803312_0"
+    ],
+    "answer": "0-dimensional biomaterials, cum ar fi nanoparticulele sau moleculile individuale, pot prezenta proprietăți inductive. Acestea pot interacționa cu alte substanțe prin intermediul unor forțe de legăturii, cum ar fi forțele van der Waals sau forțele hidrogenului, care sunt caracteristice pentru 0-dimensionale.\n\nDe exemplu, nanoparticulele de carbon nanotuburi au fost studiate pentru a-și dezvălui potențialul în domeniul medicinii și biotehnologiei, inclusiv în aplicarea în inducerea unor reacții chimice sau biologice.\n\nÎn general, 0-dimensional biomaterials pot prezenta proprietăți inductive datorită structurii lor atomice și a modului în care interacționează cu alte substanțe.\n\n[CITATIONS: [25404036_0], [6863070_0], [10607877_0], [29638116_0], [31543713_0], [9580772_0], [10608397_0], [10029970_0], [44947611_0], [803312_0]]",
+    "query_id": "1",
+    "relevant_docs": [
+      "31715818"
+    ]
+  },
+  {
+    "question": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+    "context_chunks": [
+      "23389795_0",
+      "2739854_0",
+      "14717500_0",
+      "4632921_0",
+      "17088791_0",
+      "13519661_0",
+      "13373629_0",
+      "19058822_0",
+      "15153602_0",
+      "11532028_0"
+    ],
+    "answer": "Proiectul 1.000 genome-uri (1000 Genomes Project) este un proiect internațional care vizează să mapeze variațiile genetice ale populațiilor umane, inclusiv cele rare și cele cu efecte de penetrare mai mari decât cele comune.\n\nProiectul a fost lansat în 2008 și are ca obiectiv să identifice și să caracterizeze variațiile genetice care contribuie la diferite afecțiuni și trăsături. În cadrul proiectului, s-au colectat și analizat sampeluri de ADN din peste 2.500 de indivizi din mai multe populații, inclusiv europeni, asiatici, africani și americani.\n\nProiectul a furnizat o bază de date importantă pentru studii despre genetica umană și a contribuit la dezvoltarea teoriilor genetice care explică diferite afecțiuni și trăsături.\n\n[CITATIONS: [23389795_0], [2739854_0], [14717500_0], [4632921_0], [17088791_0], [13519661_0], [13373629_0], [19058822_0], [15153602_0], [11532028_0]]",
+    "query_id": "3",
+    "relevant_docs": [
+      "14717500"
+    ]
+  },
+  {
+    "question": "1/2000 in UK have abnormal PrP positivity.",
+    "context_chunks": [
+      "13734012_0",
+      "3413083_0",
+      "18617259_0",
+      "42240424_0",
+      "17333231_0",
+      "13791044_0",
+      "21186109_0",
+      "5372432_0",
+      "695938_0",
+      "22194407_0"
+    ],
+    "answer": "Nu știu cum să răspund la întrebarea \"1/2000 in UK have abnormal PrP positivity\" pe baza contextului furnizat, deoarece nu există nicio informație despre PrP sau abilitatea de a mă conecta la date specifice.\n\nNu am suficiente informații pentru a răspunde la întrebarea ta.",
+    "query_id": "5",
+    "relevant_docs": [
+      "13734012"
+    ]
+  },
+  {
+    "question": "5% of perinatal mortality is due to low birth weight.",
+    "context_chunks": [
+      "7662395_0",
+      "26611834_0",
+      "5487448_0",
+      "17450673_0",
+      "4791384_0",
+      "1263446_0",
+      "23557241_0",
+      "34544514_1",
+      "11748341_0",
+      "8529693_0"
+    ],
+    "answer": "Nu pot găsi informații despre perinatalitate sau greutatea la naștere în contextul furnizat. Nu știam că această întrebare are legătură cu subiecte medicale.\n\nNu am răspuns la întrebarea ta.",
+    "query_id": "13",
+    "relevant_docs": [
+      "1606628"
+    ]
+  },
+  {
+    "question": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+    "context_chunks": [
+      "42441846_0",
+      "33409100_0",
+      "11705328_0",
+      "18557974_0",
+      "37424881_0",
+      "3215494_0",
+      "16252863_0",
+      "21636085_0",
+      "5152028_0",
+      "18256197_0"
+    ],
+    "answer": "Nu știi despre legătura directă între deficiența vitaminei B12 și nivelurile de homocistein în sânge. De obicei, o deficiență a vitaminei B12 este asociată cu o creștere a nivelului de homocistein în sânge, dar nu există un legătură directă între cele două substanțe.\n\nÎnsă, se știe că deficiența vitaminei B12 poate duce la o creștere a nivelului de homocistein în sânge datorită unei disfuncții enzimelor care convertesc homocisteinul în metionin. Această reacție este importantă pentru metabolizarea homocisteenului și prevenirea formării de anumite artere atrofiate.\n\n [CITATIONS: ]",
+    "query_id": "36",
+    "relevant_docs": [
+      "5152028",
+      "11705328"
+    ]
+  },
+  {
+    "question": "A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+    "context_chunks": [
+      "40913091_0",
+      "18174210_0",
+      "45218443_0",
+      "27889071_0",
+      "10128893_0",
+      "4449524_0",
+      "27162821_0",
+      "6315132_0",
+      "22482024_0",
+      "9254550_0"
+    ],
+    "answer": "Microeritrocite (microerythrocyte) sunt eritrocite mici, care pot fi o semnătură a unei anemii. În cazul anemiei thalassemice, microeritrocitele pot fi prezentă în cantitate mai mare decât în populația normală.\n\nÎn ceea ce privește vulnerabilitatea la anemia gravă în subiecți cu trăsături homozigue α (+)-thalassemie, nu am găsit informații directe despre acest subiect. Anemia thalassemică este o boală genetică care afectează producerea hemoglobinei și poate duce la anemie.\n\nÎn general, microeritrocitele pot fi prezentă în cantitate mai mare în cazuri de anemie, dar nu există o legătură directă între microeritrocite și vulnerabilitatea la anemia gravă în subiecți cu trăsături homozigue α (+)-thalassemie.\n\nNu am găsit informații despre acest subiect specific, deci nu pot oferi citări directe.\n\n[CITATIONS: ]",
+    "query_id": "42",
+    "relevant_docs": [
+      "18174210"
+    ]
+  },
+  {
+    "question": "A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",
+    "context_chunks": [
+      "18617259_0",
+      "11349166_0",
+      "24512064_0",
+      "5850219_0",
+      "44672703_0",
+      "26016929_0",
+      "28617573_1",
+      "13734012_0",
+      "29955650_0",
+      "22309946_0"
+    ],
+    "answer": "Nu știi despre cazurile de vCJD (BSE) în Regatul Unit. Nu am nicio informație despre numărul de persoane care pot fi portatoare asimptomatice a infecției cu vCJD în UK.\n\n[CITATIONS: ]",
+    "query_id": "48",
+    "relevant_docs": [
+      "13734012"
+    ]
+  },
+  {
+    "question": "ADAR1 binds to Dicer to cleave pre-miRNA.",
+    "context_chunks": [
+      "5953485_0",
+      "5702790_0",
+      "7029990_0",
+      "8006440_0",
+      "23913146_0",
+      "22362025_0",
+      "2619579_0",
+      "1333643_0",
+      "15590539_0",
+      "42662816_0"
+    ],
+    "answer": "ADAR1 (adenosine deaminază cu activitate specifică pentru RNA) este o protează care joacă un rol important în regulația expresiei genelor prin modificarea RNA. Printre altele, ADAR1 se asociază cu Dicer, o endonuclease care cleaște pre-miRNA (precursoare de microRNAs).\n\nDicer este o enzimă crucială pentru procesul de miR-NA biogenizare, care implică conversia pre-miRNA în miR-NAs funcționale. ADAR1, prin asocierea cu Dicer, contribuie la regulația expresiei genelor prin modificarea pre-miRNA.\n\nID-urile chunk-urilor folosite: [CITATIONS: 5953485_0, 5702790_0, 7029990_0, 8006440_0, 23913146_0, 22362025_0, 2619579_0, 1333643_0, 15590539_0, 42662816_0]",
+    "query_id": "49",
+    "relevant_docs": [
+      "5953485"
+    ]
+  },
+  {
+    "question": "AIRE is expressed in some skin tumors.",
+    "context_chunks": [
+      "12580014_0",
+      "39559521_0",
+      "25738896_0",
+      "4561402_0",
+      "13989491_0",
+      "18488986_0",
+      "29785642_0",
+      "12489130_0",
+      "15707049_0",
+      "43014661_0"
+    ],
+    "answer": "AIRE (Alternating Region Involvement in Receptor Tyrosine Kinase) este un gen care a fost identificat în anumite tipuri de tumori, inclusiv tumorile de piele. Acest gen a fost asociat cu o serie de mutații care pot duce la activarea receptorilor tirosinului, ceea ce poate contribui la dezvoltarea și progresia tumourilor.\n\nÎn anumite studii, s-a observat că mutațiile AIRE au fost prezente în unele tipuri de tumorile de piele, cum ar fi melanomul. De asemenea, s-a sugerat că mutațiile AIRE pot contribui la dezvoltarea și progresia altor tipuri de tumori.\n\nDe exemplu, studii au arătat că mutațiile AIRE sunt prezente în 10% din cazurile de melanom, ceea ce sugerează o legătură între aceste mutații și dezvoltarea acestor tumori.\n\nÎn general, cercetările asupra genului AIRE și a sa legăturii cu tumori de piele sunt în curs de desfășurare, dar se știe că el poate juca un rol important în dezvoltarea și progresia anumitor tipuri de tumori.\n\n[CITATIONS: [12580014_0], [39559521_0], [25738896_0], [4561402_0], [13989491_0], [18488986_0], [29785642_0], [12489130_0], [15707049_0], [43014661_0]]",
+    "query_id": "50",
+    "relevant_docs": [
+      "12580014"
+    ]
+  },
+  {
+    "question": "ALDH1 expression is associated with better breast cancer outcomes.",
+    "context_chunks": [
+      "45638119_0",
+      "21439640_0",
+      "32001951_0",
+      "24341590_0",
+      "17648235_0",
+      "24249915_0",
+      "313403_0",
+      "2140497_0",
+      "23830488_0",
+      "32534305_0"
+    ],
+    "answer": "Nu știu despre legătura între expresia ALDH1 și rezultatele mai bune ale cancerului de sân. Nu am găsit nicio informație în contextul furnizat care să spună ce este legătura între aceste două subiecte.\n\n[CITATIONS: ]",
+    "query_id": "51",
+    "relevant_docs": [
+      "45638119"
+    ]
+  }
+]
